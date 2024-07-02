@@ -1,17 +1,5 @@
 # Welcome to BeefPotato's Blog
 
-随便看看就好。
+随便看看就好， 目前没什么东西。
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[以前的博客](https://github.com/beef-potato/beef-potato.github.io)

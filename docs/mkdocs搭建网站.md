@@ -9,5 +9,19 @@
 
 ## 添加图片
 
-把 `imgs` 文件夹放到docs下面，然后在任意md文件中相对路径引用，就可以普通地显示图片了。
+把 `imgs` 文件夹放到docs下面，然后在任意md文件中相对路径引用，就可以普通地显示图片了。类似下面这样，`imgs`文件夹不会显示在网页端
+
+```text
+│  mkdocs.yml
+│
+├─docs
+│  │  about.md
+│  │  index.md
+│  │  mkdocs搭建网站.md
+│  │  pwshBonus.md
+│  │  test.md
+│  │
+│  └─imgs
+│          miku.jpg
+```
 
