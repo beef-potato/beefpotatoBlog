@@ -8,3 +8,5 @@ nav:
       - galgameTools.md
       - test.md
 theme: material
+extra_javascript:
+  - javascripts/live2d.js
