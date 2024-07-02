@@ -1,0 +1,9 @@
+site_name: BeefPotato Docs
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notes:
+      - mkdocs搭建网站.md
+      - pwshBonus.md
+      - test.md
+theme: material
