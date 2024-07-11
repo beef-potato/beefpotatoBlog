@@ -6,6 +6,9 @@ https://naganeko.pages.dev/chibi-gif/ ，可以从spine2/3获得指定motion的f
 
 https://www.codeandweb.com/free-sprite-sheet-packer ， 从一系列图片合成为一张大的spritesheet
 
+
+## 效果
+
 只要有spine源文件，就可以通过 spine-frame pics-sprite sheet获得目标图片，效果类似下图
 
 ![](./imgs/xinyue.png)

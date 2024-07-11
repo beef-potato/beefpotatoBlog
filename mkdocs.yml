@@ -10,6 +10,7 @@ nav:
       - 如何关闭windows defender.md
       - 荧光文字倒影.md
       - spine2spritesheet.md
+      - mkdocsWithLive2d.md
 theme: material
 extra_javascript:
   - javascripts/live2d.js

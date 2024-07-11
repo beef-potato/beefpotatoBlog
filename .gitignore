@@ -1,1 +1,6 @@
 site/
+
+# what I want to ignore
+scratch/
+
+.idea/
