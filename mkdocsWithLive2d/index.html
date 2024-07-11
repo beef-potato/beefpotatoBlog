@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../pwshBonus/">
+        <link rel="prev" href="../spine2spritesheet/">
       
-      
-        <link rel="next" href="../test/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>galgameTools - BeefPotato Docs</title>
+        <title>mkdocsWithLive2d - BeefPotato Docs</title>
       
     
     
@@ -93,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              galgameTools
+              mkdocsWithLive2d
             
           </span>
         </div>
@@ -302,17 +300,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../galgameTools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -321,7 +312,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -415,10 +405,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../mkdocsWithLive2d/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -427,6 +424,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -470,9 +468,14 @@
                   
 
 
-  <h1>galgameTools</h1>
+  <h1>mkdocsWithLive2d</h1>
 
-<p>先占坑，有心情再写，也是想了好久的东西了。</p>
+<p>这个网站使用了live2d-widget, https://github.com/stevenjoezhang/live2d-widget</p>
+<p>目前如果尝试在本网站加载新的页面，打开f12可以发现每次都加载了一次live2d的纹理集，显然这个方式并不节约时间和算力。网站的加载方式是添加一个live2d.js, 实际上就是上面仓库里的 autoload.js, 然后在mkdocs.yml里添加(启用了material-mkdocs)</p>
+<pre><code class="language-yml">extra_javascript:
+  - javascripts/live2d.js
+</code></pre>
+<p>不知道还有没有自定义html页面和防止重新加载的方法，不然一个文字博客加载速度这么慢实在是遗憾。</p>
 
 
 
