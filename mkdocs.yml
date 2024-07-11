@@ -7,6 +7,9 @@ nav:
       - pwshBonus.md
       - galgameTools.md
       - test.md
+      - 如何关闭windows defender.md
+      - 荧光文字倒影.md
+      - spine2spritesheet.md
 theme: material
 extra_javascript:
   - javascripts/live2d.js
