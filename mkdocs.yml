@@ -11,6 +11,9 @@ nav:
       - 荧光文字倒影.md
       - spine2spritesheet.md
       - mkdocsWithLive2d.md
+      - MusicFree依赖安装.md
+  - ShowCase:
+      - showcase.html
 theme: material
 extra_javascript:
   - javascripts/live2d.js
