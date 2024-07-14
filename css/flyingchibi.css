@@ -1,0 +1,24 @@
+.sprite-container {
+    width: 1024;  /* Width of a single frame */
+    height: 576; /* Height of a single frame */
+    background: url('../imgs/bg.png');
+}
+
+.chibi-container {
+    width: 130px;
+    height: 134px;
+    position: absolute;
+}
+
+.chibi {
+    width: 130px; /* Width of the entire sprite sheet (number of frames * frame width) */
+    height: 134px; /* Height of a single frame */
+    background: url('../imgs/bulin.png') no-repeat;
+    animation: play 0.5s steps(7) infinite;
+    z-index: -1;
+}
+
+
+@keyframes play {
+    100% { background-position: -910px; }
+}
