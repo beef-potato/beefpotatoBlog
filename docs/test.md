@@ -1,5 +1,9 @@
 # 测试页面
 
+!!! success "参考文档"
+    https://squidfunk.github.io/mkdocs-material/reference
+
+
 这个页面是拿来测试的，没什么用处。
 
 ![](imgs/miku.jpg)
@@ -122,3 +126,15 @@ Important: admonitions that use the inline modifiers must be declared prior to t
 !!! quote
     喵喵喵？
 
+## 列表
+
+- [x] down
+- [ ] undown
+
+## code 代码块
+
+```python title="hello.py"
+
+print("hello world!")
+
+```
