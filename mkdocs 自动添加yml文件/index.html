@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../%E8%8D%A7%E5%85%89%E6%96%87%E5%AD%97%E5%80%92%E5%BD%B1/">
+        <link rel="prev" href="../about/">
       
       
-        <link rel="next" href="../mkdocsWithLive2d/">
+        <link rel="next" href="../%E6%8E%A8%E8%8D%90%E9%98%85%E8%AF%BB/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Spine2spritesheet - BeefPotato Docs</title>
+        <title>Mkdocs 自动添加yml文件 - BeefPotato Docs</title>
       
     
     
@@ -61,11 +61,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -98,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Spine2spritesheet
+              Mkdocs 自动添加yml文件
             
           </span>
         </div>
@@ -265,10 +260,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../mkdocs%20%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0yml%E6%96%87%E4%BB%B6/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -277,6 +279,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -496,28 +499,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Spine2spritesheet
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../spine2spritesheet/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -526,42 +511,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      工具
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      效果
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -802,32 +751,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      工具
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      效果
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -841,20 +764,85 @@
                   
 
 
-  <h1>Spine2spritesheet</h1>
+  <h1>Mkdocs 自动添加yml文件</h1>
 
-<p>本来是想找一个sprite 动画替代live2d，但是我发现spritesheet问题多多，总之方法总结如下:</p>
-<h2 id="_1">工具</h2>
-<p>https://naganeko.pages.dev/chibi-gif/ ，可以从spine2/3获得指定motion的frame截图或者gif图片</p>
-<p>https://www.codeandweb.com/free-sprite-sheet-packer ， 从一系列图片合成为一张大的spritesheet</p>
-<h2 id="_2">效果</h2>
-<p>只要有spine源文件，就可以通过 spine-frame pics-sprite sheet获得目标图片，效果类似下图</p>
-<p><img alt="" src="../imgs/xinyue.png" /></p>
-<p>但是总体的效果还取决于动画本身的帧率，如果动画时间非常长，比如1.33s, 那么同样7frames一个循环就会有190ms的延迟, 效果如下：</p>
-<p><img alt="" src="../imgs/salatuojia.gif" /></p>
-<p>对比上面的动画</p>
-<p><img alt="" src="../imgs/xinyue.gif" /></p>
-<p>肉眼可见的卡顿感，如果需要类似后者的效果则需要加载一张28frame的sprite sheet, 或许偏离最初用sprite sheet的目的了。</p>
+<p>mkdocs 建立网站个人感觉最繁琐的一步是需要手动添加新建立的md文件，于是自己写了一个脚本自动添加到Notes：</p>
+<pre><code class="language-python">import os
+
+&quot;&quot;&quot;
+put unadded markdown files in docs into mkdocs.yml's right part:
+
+eg&gt;
+
+
+site_name: BeefPotato Docs
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notes:
+      - mkdocs搭建网站.md
+      - pwshBonus.md
+      - galgameTools.md
+      - test.md
+
+&quot;&quot;&quot;
+
+Blogdir = r&quot;到你的博客root folder path&quot;
+if os.getcwd() != Blogdir:
+    print(&quot;not in blog main dir!&quot;)
+    os.chdir(Blogdir)
+
+
+target_file = &quot;mkdocs.yml&quot;
+src_folder = &quot;docs&quot;
+
+mk_ls = os.listdir(src_folder)
+
+def get_yml():
+    with open(target_file, &quot;r&quot;, encoding=&quot;utf8&quot;) as f:
+        content = f.readlines() 
+    return content
+
+
+
+def add_md_to_yml(md_ls:list):
+    content = get_yml()
+
+    for i in range(len(content)):
+        if &quot;- Notes:&quot; in content[i]:
+            for j in range(len(md_ls)):
+                elem = &quot;      - &quot;+ md_ls[j]+&quot;\n&quot;
+                if elem not in content:
+                    content.insert(i+1, elem)
+                # insert markdowns
+            break
+    with open(target_file, 'w', encoding=&quot;utf-8&quot;) as f:
+        f.writelines(content)
+
+
+def check_diff(markdown_ls:list, yml_ls:list):
+    unadd_mds = []
+    for md_file in markdown_ls:
+        if md_file.endswith(&quot;.md&quot;):
+            if md_file not in &quot;&quot;.join(yml_ls):  # Check if the file is mentioned in yml content
+                unadd_mds.append(md_file)
+    return unadd_mds
+
+
+if __name__ == &quot;__main__&quot;:
+    yml_f_ls = get_yml()
+    diff_md = check_diff(mk_ls, yml_f_ls)
+    if diff_md:
+        add_md_to_yml(diff_md)
+        print(f&quot;Added the following markdown files to mkdocs.yml: {diff_md}&quot;)
+    else:
+        print(&quot;No new markdown files to add.&quot;)
+
+
+
+
+</code></pre>
+<p>思路就是遍历 <code>doc</code> 文件夹下面的 <code>.md</code>结尾的文件，如果mkdocs.yml里面没有这个文件名，以合适的格式添加文件。</p>
 
 
 
