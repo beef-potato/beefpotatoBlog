@@ -3,7 +3,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Notes:
-      - mkdocs 自动添加yml文件.md
+      - mkdocsAutoFill.md
       - 推荐阅读.md
       - 强力对策平衡.md
       - 密码管理软件.md
