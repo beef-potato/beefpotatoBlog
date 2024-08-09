@@ -11,7 +11,6 @@ nav:
       - mkdocs搭建网站.md
       - pwshBonus.md
       - galgameTools.md
-      - test.md
       - 如何关闭windows defender.md
       - 荧光文字倒影.md
       - spine2spritesheet.md
@@ -21,6 +20,10 @@ nav:
       - elf 汉化记录.md
   - 杂项:
       - 尼普顿空调租赁.md
-  - ShowCase:
-      - showcase.html
+  - 测试:
+      - test.md
 theme: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
