@@ -19,5 +19,3 @@ nav:
   - ShowCase:
       - showcase.html
 theme: material
-extra_javascript:
-  - javascripts/live2d.js
