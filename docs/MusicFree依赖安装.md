@@ -250,6 +250,18 @@ To address all issues (including breaking changes), run:
 Run `npm audit` for details.
 ```
 
+## vpn
+
+自己用的 clash for windows 
+
+```pwsh
+npm config edit
+```
+
+```txt
+# in .npmrc
+proxy=http://127.0.0.1:7890
+```
 
 ## 各软件版本
 

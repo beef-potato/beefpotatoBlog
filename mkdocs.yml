@@ -12,6 +12,10 @@ nav:
       - spine2spritesheet.md
       - mkdocsWithLive2d.md
       - MusicFree依赖安装.md
+      - 杂项.md
+      - elf 汉化记录.md
+  - 杂项:
+      - 尼普顿空调租赁.md
   - ShowCase:
       - showcase.html
 theme: material
