@@ -3,6 +3,10 @@ nav:
   - Home: index.md
   - About: about.md
   - Notes:
+      - 推荐阅读.md
+      - 强力对策平衡.md
+      - 密码管理软件.md
+      - baiduAPI+xunity_autotranslator.md
       - mkdocs搭建网站.md
       - pwshBonus.md
       - galgameTools.md
