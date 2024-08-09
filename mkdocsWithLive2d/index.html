@@ -431,27 +431,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../test/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    测试页面
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADwindows%20defender/" class="md-nav__link">
         
   
@@ -691,7 +670,7 @@
             
   
   <span class="md-ellipsis">
-    ShowCase
+    测试
   </span>
   
 
@@ -701,7 +680,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            ShowCase
+            测试
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -712,11 +691,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../showcase.html" class="md-nav__link">
+      <a href="../test/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    测试页面
   </span>
   
 
@@ -768,9 +747,9 @@
 
 <p>这个网站使用了live2d-widget, https://github.com/stevenjoezhang/live2d-widget</p>
 <p>目前如果尝试在本网站加载新的页面，打开f12可以发现每次都加载了一次live2d的纹理集，显然这个方式并不节约时间和算力。网站的加载方式是添加一个live2d.js, 实际上就是上面仓库里的 autoload.js, 然后在mkdocs.yml里添加(启用了material-mkdocs)</p>
-<pre><code class="language-yml">extra_javascript:
-  - javascripts/live2d.js
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>extra_javascript:
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  - javascripts/live2d.js
+</span></code></pre></div>
 <p>不知道还有没有自定义html页面和防止重新加载的方法，不然一个文字博客加载速度这么慢实在是遗憾。</p>
 <p>多方考虑或许删掉比较好，如果因为加载速度影响了阅读欲望，那还不如没有的好。有机会的话换一个仓库展示自己的各种网站。</p>
 
@@ -819,7 +798,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>

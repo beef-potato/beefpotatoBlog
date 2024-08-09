@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../test/">
+        <link rel="prev" href="../galgameTools/">
       
       
         <link rel="next" href="../%E8%8D%A7%E5%85%89%E6%96%87%E5%AD%97%E5%80%92%E5%BD%B1/">
@@ -433,27 +433,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../test/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    测试页面
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -784,7 +763,7 @@
             
   
   <span class="md-ellipsis">
-    ShowCase
+    测试
   </span>
   
 
@@ -794,7 +773,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            ShowCase
+            测试
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -805,11 +784,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../showcase.html" class="md-nav__link">
+      <a href="../test/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    测试页面
   </span>
   
 
@@ -934,17 +913,17 @@
 所有以这类简单脚本操作的形式关闭windows defender的可能。
 下面都是失败的尝试，除了注册表那个。</p>
 <h3 id="pwsh">pwsh脚本</h3>
-<pre><code class="language-pwsh">ParserError:
-Line |
-   1 |  Stop-Service -Name WinDefend -Force
-     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | This script contains malicious content and has been blocked by your antivirus software.
-</code></pre>
-<p>出于某种原因，上述命令不仅没有用，还会触发报错，因此直接使用脚本停用win defender似乎是行不通的。</p>
+<p><div class="language-pwsh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">ParserError</span><span class="p">:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">Line</span> <span class="p">|</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>   <span class="n">1</span> <span class="p">|</span>  <span class="nb">Stop-Service</span> <span class="n">-Name</span> <span class="n">WinDefend</span> <span class="n">-Force</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>     <span class="p">|</span>  <span class="p">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>     <span class="p">|</span> <span class="n">This</span> <span class="n">script</span> <span class="n">contains</span> <span class="n">malicious</span> <span class="n">content</span> <span class="n">and</span> <span class="n">has</span> <span class="n">been</span> <span class="n">blocked</span> <span class="n">by</span> <span class="n">your</span> <span class="n">antivirus</span> <span class="n">software</span><span class="p">.</span>
+</span></code></pre></div>
+出于某种原因，上述命令不仅没有用，还会触发报错，因此直接使用脚本停用win defender似乎是行不通的。</p>
 <h3 id="group-policy-editor">Group Policy Editor</h3>
 <p>先说结果：不行</p>
-<pre><code class="language-pwsh">DisableRealtimeMonitoring                             : False
-</code></pre>
+<div class="language-pwsh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">DisableRealtimeMonitoring</span>                             <span class="p">:</span> <span class="n">False</span>
+</span></code></pre></div>
 <p>方法：</p>
 <ol>
 <li><code>win+r</code>, type <code>gpedit.msc</code></li>
@@ -1024,7 +1003,7 @@ Line |
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>

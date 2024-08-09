@@ -439,27 +439,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../test/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    测试页面
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADwindows%20defender/" class="md-nav__link">
         
   
@@ -691,7 +670,7 @@
             
   
   <span class="md-ellipsis">
-    ShowCase
+    测试
   </span>
   
 
@@ -701,7 +680,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            ShowCase
+            测试
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -712,11 +691,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../showcase.html" class="md-nav__link">
+      <a href="../test/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    测试页面
   </span>
   
 
@@ -768,25 +747,23 @@
 
 <p>百度翻译的api只需注册就能申请到免费的翻译额度，实名后每个月100W字符。</p>
 <p><a href="https://github.com/bbepis/XUnity.AutoTranslator">xunity autotranlator</a>支持使用百度的api翻译，配置好相关文件以后修改<code>Config.ini</code>:</p>
-<pre><code class="language-ini">[Service]
-Endpoint=Baidu
-FallbackEndpoint=DeepLTranslate
-
-[General]
-Language=zh
-FromLanguage=ja
-
-[Behaviour]
-
-OverrideFontTextMeshPro=arialuni_sdf_u2019;https://github.com/bbepis/XUnity.AutoTranslator/issues/542 // https://www.bilibili.com/read/cv15640348/
-
-[Baidu]
-BaiduAppId=xxx
-BaiduAppSecret=xxx
-DelaySeconds=1
-
-
-</code></pre>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[Service]</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="na">Endpoint</span><span class="o">=</span><span class="s">Baidu</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="na">FallbackEndpoint</span><span class="o">=</span><span class="s">DeepLTranslate</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">[General]</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="na">Language</span><span class="o">=</span><span class="s">zh</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="na">FromLanguage</span><span class="o">=</span><span class="s">ja</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="k">[Behaviour]</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="na">OverrideFontTextMeshPro</span><span class="o">=</span><span class="s">arialuni_sdf_u2019</span><span class="c1">;https://github.com/bbepis/XUnity.AutoTranslator/issues/542 // https://www.bilibili.com/read/cv15640348/</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">[Baidu]</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="na">BaiduAppId</span><span class="o">=</span><span class="s">xxx</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="na">BaiduAppSecret</span><span class="o">=</span><span class="s">xxx</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="na">DelaySeconds</span><span class="o">=</span><span class="s">1</span>
+</span></code></pre></div>
 <p>随后运行程序，检查翻译结果。</p>
 <p>顺便，DeepL的翻译api似乎是免费的，因此直接使用 <code>Endpoint=DeepLTranslate</code> 也可以。</p>
 
@@ -835,7 +812,7 @@ DelaySeconds=1
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
