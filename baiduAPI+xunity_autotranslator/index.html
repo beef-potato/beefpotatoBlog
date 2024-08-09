@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../about/">
-      
-      
-        <link rel="next" href="../pwshBonus/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>Mkdocs搭建网站 - BeefPotato Docs</title>
+        <title>baiduAPI+xunity autotranslator - BeefPotato Docs</title>
       
     
     
@@ -61,11 +57,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -98,7 +89,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Mkdocs搭建网站
+              baiduAPI+xunity autotranslator
             
           </span>
         </div>
@@ -228,19 +219,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -254,7 +243,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Notes
@@ -265,28 +254,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Mkdocs搭建网站
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../mkdocs%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -295,42 +266,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      前置工具
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      添加图片
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -697,32 +632,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      前置工具
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      添加图片
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -736,29 +645,31 @@
                   
 
 
-  <h1>Mkdocs搭建网站</h1>
+  <h1>baiduAPI+xunity autotranslator</h1>
 
-<p>本站用的是mkdocs + github pages + material-mkdocs</p>
-<h2 id="_1">前置工具</h2>
-<ul>
-<li>node.js + npm, windows 推荐使用 <a href="https://github.com/coreybutler/nvm-windows">nvm-windows</a></li>
-<li>mkdocs, 使用pip安装，所以需要 python. <a href="https://www.mkdocs.org/user-guide/writing-your-docs/">mkdocs</a></li>
-<li>github pages, git. </li>
-</ul>
-<h2 id="_2">添加图片</h2>
-<p>把 <code>imgs</code> 文件夹放到docs下面，然后在任意md文件中相对路径引用，就可以普通地显示图片了。类似下面这样，<code>imgs</code>文件夹不会显示在网页端</p>
-<pre><code class="language-text">│  mkdocs.yml
-│
-├─docs
-│  │  about.md
-│  │  index.md
-│  │  mkdocs搭建网站.md
-│  │  pwshBonus.md
-│  │  test.md
-│  │
-│  └─imgs
-│          miku.jpg
+<p>百度翻译的api只需注册就能申请到免费的翻译额度，实名后每个月100W字符。</p>
+<p><a href="https://github.com/bbepis/XUnity.AutoTranslator">xunity autotranlator</a>支持使用百度的api翻译，配置好相关文件以后修改<code>Config.ini</code>:</p>
+<pre><code class="language-ini">[Service]
+Endpoint=Baidu
+FallbackEndpoint=DeepLTranslate
+
+[General]
+Language=zh
+FromLanguage=ja
+
+[Behaviour]
+
+OverrideFontTextMeshPro=arialuni_sdf_u2019;https://github.com/bbepis/XUnity.AutoTranslator/issues/542 // https://www.bilibili.com/read/cv15640348/
+
+[Baidu]
+BaiduAppId=xxx
+BaiduAppSecret=xxx
+DelaySeconds=1
+
+
 </code></pre>
+<p>随后运行程序，检查翻译结果。</p>
+<p>顺便，DeepL的翻译api似乎是免费的，因此直接使用 <code>Endpoint=DeepLTranslate</code> 也可以。</p>
 
 
 
