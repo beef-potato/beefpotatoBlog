@@ -1,4 +1,4 @@
-# [mkdocs 自动添加yml文件](<mkdocs 自动添加yml文件.md>)
+# mkdocs 自动添加yml文件
 
 mkdocs 建立网站个人感觉最繁琐的一步是需要手动添加新建立的md文件，于是自己写了一个脚本自动添加到Notes：
 
