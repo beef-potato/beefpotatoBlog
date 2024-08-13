@@ -3,6 +3,10 @@ nav:
   - Home: index.md
   - About: about.md
   - Notes:
+      - uninstall_pip_modules.md
+      - winrar.md
+      - create_requirement.md
+      - akabeisoft3汉化.md
       - mkdocsAutoFill.md
       - 推荐阅读.md
       - 强力对策平衡.md
