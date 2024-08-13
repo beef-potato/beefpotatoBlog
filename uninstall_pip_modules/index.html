@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../%E5%BC%BA%E5%8A%9B%E5%AF%B9%E7%AD%96%E5%B9%B3%E8%A1%A1/">
+        <link rel="prev" href="../about/">
       
       
-        <link rel="next" href="../baiduAPI%2Bxunity_autotranslator/">
+        <link rel="next" href="../winrar/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>密码管理软件 - BeefPotato Docs</title>
+        <title>移除不必要的pip模组 - BeefPotato Docs</title>
       
     
     
@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#pip" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              密码管理软件
+              移除不必要的pip模组
             
           </span>
         </div>
@@ -260,10 +265,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../uninstall_pip_modules/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -272,6 +286,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -407,17 +422,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,7 +434,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -813,6 +820,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -827,10 +836,25 @@
                   
 
 
-  <h1>密码管理软件</h1>
-
-<p>https://keepass.info/</p>
-<p>最近一直在找密码管理软件，keepass算是比较符合需求的一个。开源软件，在本地管理密码，能导入各种格式的密码数据库，支持生成密码。</p>
+<h1 id="pip">移除不必要的pip模组</h1>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip help uninstall
+</span></code></pre></div>
+<p>查看删除指令帮助</p>
+<p>先激活相关环境，如果不小心在主环境安装了不需要的库：</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>deactivate 
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>pip freeze &gt; uninstall_modules.txt
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>pip uninstall -r .\uninstall_modules.txt -y
+</span></code></pre></div>
+deactivate , 退出虚拟环境；
+pip freeze &gt; uninstall_modules.txt ， 导出所有包
+pip uninstall -r .\uninstall_modules.txt -y ， 删除所有包，确认</p>
+<p>结果：</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>PS D:\code\python&gt; pip list
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Package Version
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>------- -------
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>pip     24.0
+</span></code></pre></div>
+<p>😎</p>
 
 
 
