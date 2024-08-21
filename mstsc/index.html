@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/">
+        <link rel="prev" href="../about/">
       
       
-        <link rel="next" href="../mkdocs%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/">
+        <link rel="next" href="../steganography/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>baiduAPI+xunity autotranslator - BeefPotato Docs</title>
+        <title>mstsc 微软远程桌面连接 - BeefPotato Docs</title>
       
     
     
@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mstsc" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              baiduAPI+xunity autotranslator
+              mstsc 微软远程桌面连接
             
           </span>
         </div>
@@ -260,10 +265,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../mstsc/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -272,6 +286,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -449,17 +464,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../baiduAPI%2Bxunity_autotranslator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -468,7 +476,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -918,6 +925,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -932,29 +941,9 @@
                   
 
 
-  <h1>baiduAPI+xunity autotranslator</h1>
-
-<p>百度翻译的api只需注册就能申请到免费的翻译额度，实名后每个月100W字符。</p>
-<p><a href="https://github.com/bbepis/XUnity.AutoTranslator">xunity autotranlator</a>支持使用百度的api翻译，配置好相关文件以后修改<code>Config.ini</code>:</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[Service]</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="na">Endpoint</span><span class="o">=</span><span class="s">Baidu</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="na">FallbackEndpoint</span><span class="o">=</span><span class="s">DeepLTranslate</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">[General]</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="na">Language</span><span class="o">=</span><span class="s">zh</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="na">FromLanguage</span><span class="o">=</span><span class="s">ja</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="k">[Behaviour]</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="na">OverrideFontTextMeshPro</span><span class="o">=</span><span class="s">arialuni_sdf_u2019</span><span class="c1">;https://github.com/bbepis/XUnity.AutoTranslator/issues/542 // https://www.bilibili.com/read/cv15640348/</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">[Baidu]</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="na">BaiduAppId</span><span class="o">=</span><span class="s">xxx</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="na">BaiduAppSecret</span><span class="o">=</span><span class="s">xxx</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="na">DelaySeconds</span><span class="o">=</span><span class="s">1</span>
-</span></code></pre></div>
-<p>随后运行程序，检查翻译结果。</p>
-<p>顺便，DeepL的翻译api似乎是免费的，因此直接使用 <code>Endpoint=DeepLTranslate</code> 也可以。</p>
+<h1 id="mstsc">mstsc 微软远程桌面连接</h1>
+<p>如果本地账户修改为微软账户登入，那么连接时需要输入的账户密码就是微软账号的账户密码。</p>
+<p>在主机ctrl+L, 锁定后的登陆选项中也没看到本地账户的登陆选项。只有pin和微软账户密码的选项。</p>
 
 
 
