@@ -3,11 +3,11 @@ nav:
   - Home: index.md
   - About: about.md
   - Notes:
+      - mstsc.md
       - steganography.md
       - uninstall_pip_modules.md
       - winrar.md
       - create_requirement.md
-      - akabeisoft3汉化.md
       - mkdocsAutoFill.md
       - 推荐阅读.md
       - 强力对策平衡.md
@@ -15,18 +15,21 @@ nav:
       - baiduAPI+xunity_autotranslator.md
       - mkdocs搭建网站.md
       - pwshBonus.md
-      - galgameTools.md
       - 如何关闭windows defender.md
       - 荧光文字倒影.md
       - spine2spritesheet.md
       - mkdocsWithLive2d.md
       - MusicFree依赖安装.md
       - 杂项.md
-      - elf 汉化记录.md
   - 杂项:
       - 尼普顿空调租赁.md
   - 测试:
       - test.md
+  - 汉化:
+      - galgameTools.md
+      - elf 汉化记录.md
+      - HimeNochiHoneyCN.md
+      - akabeisoft3Danshi汉化.md
 theme: 
     name: material
     features:
