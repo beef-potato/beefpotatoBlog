@@ -27,9 +27,11 @@ nav:
       - test.md
   - 汉化:
       - galgameTools.md
+      - galgameCnNote.md
       - elf 汉化记录.md
       - HimeNochiHoneyCN.md
       - akabeisoft3Danshi汉化.md
+      - meikuruCN.md
 theme: 
     name: material
     features:
