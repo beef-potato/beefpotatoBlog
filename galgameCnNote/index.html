@@ -881,9 +881,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      闲话
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      教程
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      工具集合
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#galtransl" class="md-nav__link">
     <span class="md-ellipsis">
       Galtransl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      我的一些工具脚本
     </span>
   </a>
   
@@ -1016,9 +1052,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      闲话
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      教程
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      工具集合
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#galtransl" class="md-nav__link">
     <span class="md-ellipsis">
       Galtransl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      我的一些工具脚本
     </span>
   </a>
   
@@ -1040,15 +1112,32 @@
 
 
 <h1 id="_1">汉化杂谈</h1>
-<p>经验主义的闲谈，介绍一些工具和工作流程。</p>
-<p>工具集合，很多工具都是9年前的，或许会有更新，网上也会有下载链接：</p>
+<p>经验主义的闲谈，介绍一些工具和工作流程，限于个人能力和时间，无法面面俱到。</p>
+<h2 id="_2">闲话</h2>
+<p>心态放好，多休息。</p>
+<p><strong>遇到问题尝试自行解决</strong>，gpt, google, wiki, github, stack overflow是良师益友，多看文档，多翻issue。</p>
+<p>注意提问的场合，<a href="https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way">学会提问</a>。</p>
+<h2 id="_3">教程</h2>
+<p>一切的前提是 <strong>翻墙</strong>，或者寻找好心人的搬运资源；</p>
+<p>基础的终端语言知识，一种即可比如pwsh/bash/cmd等等； 基础的python知识；Github仓库使用方法；</p>
+<p>关于galgame汉化，网上有很多零散的教程，考虑效率，在此列出尽可能简短的仓库和视频教程链接：</p>
+<p><a href="https://space.bilibili.com/8144708">Dir-A 的bilibili主页</a>，各种引擎的基础解包封包，认证回避都有提到，也可以到github上看看他推荐的学习方向。</p>
+<p><a href="https://github.com/xd2333/GalTransl">Galtransl， GPT/Newbing/Sakura等llm自动化翻译galgame方案</a>， 请熟读 <code>README</code>， 基本上概括了galgame简单机翻的所有流程。</p>
+<p><a href="https://github.com/satan53x/SExtractor">SExtractor</a>, 我的几个<a href="https://2dfan.com/users/378986/downloads">补丁翻译</a>使用的文本提取工具，文档写得有点晦涩(作者本人吐槽说自己懒)， 基本上遇到的问题都可以在issue里翻到，由于正则可以编写多行，自定义的程度很高，基本上llm翻译除了实际在显卡上运行以外，最花时间的可能就是编写正则，详情可以到我的相关汉化笔记里看看。</p>
+<p><a href="https://huggingface.co/SakuraLLM">SakuraLLM</a>, 针对galgame翻译进行优化的离线模型。</p>
+<p>至于各种工具，基本上galgame翻译所使用的工具并不多，所以很多地方会重复提及，利用上文提到的工具，以及作者编写的说明文档，基本上可以走通解包-翻译-封包-读取的过程，提前用一两行文本测试也是很重要的。</p>
+<h2 id="_4">工具集合</h2>
+<p>很多工具都是9年前的，或许会有更新，网上也会有下载链接，请以每个工具各自的github仓库为准：</p>
 <p>https://github.com/Inori/FuckGalEngine/tree/master/Krkr</p>
 <p>基本上我实际机翻的游戏都是17年之前的 <code>krkr 2/ krkr z</code>, <code>utf-16 le with bom</code>的编码脚本打包之后就可以读取，不需要重新加密。</p>
 <p>krkr 2, 主要使用 xp3viewer, 可以完成解包和封包的工作, 将 xp3viewer.exe 和 xp3viewer.dll 放入游戏root path, 拖动游戏exe到xp3viewer.exe上打开，再拖动二进制<code>xp3</code>, <code>bin</code> 文件到解包区内就可以解包了; 打包将所有文件放到一个自建文件夹内, 一般命名为<code>patchX</code>，X为任意自然数，避免重复。</p>
 <p>krkr z, 主要用 kirikiriTools 里的 krkrpatch.exe 和 version.dll, 通过免封包读取实现补丁;</p>
 <h2 id="galtransl">Galtransl</h2>
-<p>人名替换表会替换<code>json</code>里的<code>name</code>字段，如果没有替换标签文本不建议使用，会导致标签索引错误，一般翻译文本的话不用管，这么一来如果设置了项目gpt字典，就会出现文本界面姓名是 きうら 但是在 message 里面是 <code>清羽</code> 的现象。</p>
+<p>人名替换csv表会替换<code>json</code>里的<code>name</code>字段，如果没有替换标签文本且充分理解krkr标签读取逻辑，不建议使用，会导致<a href="https://2dfan.com/downloads/26730">标签索引错误</a>，一般翻译文本的话不用管，这么一来如果设置了项目gpt字典，就会出现文本界面姓名是 きうら 但是在 message 里面是 <code>清羽</code> 的现象。</p>
 <p>这里的取舍就看汉化者个人的时间和预期，最便利的方法就是无视冲突，稍微追求质量写gpt字典稳定人名翻译，追求完美就改name字段，并且尝试修改标签文本，我目前还没试过。</p>
+<h2 id="_5">我的一些工具脚本</h2>
+<p>https://github.com/beef-potato/SExtractor/tree/main/pythonScripts</p>
+<p>基本上就是编码转换，直接用emeditor批量打开和处理也可以，胜在简单，也不是很复杂。</p>
 
 
 
