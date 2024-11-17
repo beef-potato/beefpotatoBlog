@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Notes:
+      - siglus游戏封包.md
       - mstsc.md
       - steganography.md
       - uninstall_pip_modules.md
