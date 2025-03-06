@@ -3,6 +3,8 @@ nav:
   - Home: index.md
   - About: about.md
   - Notes:
+      - 关于解压软件.md
+      - 血压升高的提问方式.md
       - siglus游戏封包.md
       - mstsc.md
       - steganography.md
